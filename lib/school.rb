@@ -8,6 +8,8 @@ class School
   def add_student(student, att)
     @student = student
     @att = att
-    @att = Array.new(@student)
+    roster[@att] = []
+    roster[@att] << @student
+    
   end
 end 
