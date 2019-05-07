@@ -5,7 +5,7 @@ class School
   def roster
      roster = {}
   end
-  def add_student(student)
+  def add_student(student,att)
     @student = student
     roster << student 
   end
