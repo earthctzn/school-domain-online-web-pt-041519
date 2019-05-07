@@ -7,6 +7,6 @@ class School
   end
   def add_student(student,att)
     @student = student
-    rosters[student, att] 
+    roster[student, att] 
   end
 end 
