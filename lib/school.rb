@@ -5,8 +5,9 @@ class School
   def roster
      roster = {}
   end
-  def add_student(student,att)
+  def add_student(student, att)
     @student = student
-    roster = {:att => ["student"]}
+    @att = att
+    @att = Array.new(@student)
   end
 end 
