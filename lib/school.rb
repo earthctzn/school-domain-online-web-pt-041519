@@ -6,7 +6,13 @@ class School
     @name = name
   end
   
-ROSTER = {}
+  def roster 
+    @roster = roster
+    @roster = {}
+  end
+    
+
+
   
   def add_student(student, att)
     ROSTER[att] = [] if !att.include?
