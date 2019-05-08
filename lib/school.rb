@@ -14,7 +14,7 @@ class School
   
   def add_student(student, att)
     binding.pry
-    roster[att] = [] if roster.keys.include?
+    roster[att] = [] if roster.keys
     roster[att] << student
     
   end
