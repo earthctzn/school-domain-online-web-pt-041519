@@ -6,10 +6,8 @@ class School
      roster = {}
   end
   def add_student(student, att)
-    @student = student
-    @att = att
-    roster[@att] = []
-    roster[@att] << @student
+    roster[att] = []
+    roster[att] << student
     
   end
 end 
