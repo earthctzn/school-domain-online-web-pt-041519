@@ -12,8 +12,8 @@ class School
     
   
   def add_student(student, att)
-    ROSTER[att] = [] if !att.include?
-    ROSTER[att] << student
+    roster[att] = [] if !att.include?
+    roster[att] << student
     
   end
 end 
