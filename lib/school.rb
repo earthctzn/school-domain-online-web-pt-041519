@@ -13,7 +13,7 @@ class School
     
   
   def add_student(student, att)
-    binding.pry
+   # binding.pry
     roster[att] = [] if roster.keys.include?(att)
     roster[att] << student
     
