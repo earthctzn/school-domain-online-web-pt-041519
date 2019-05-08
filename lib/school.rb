@@ -24,7 +24,8 @@ class School
   end 
   def sort 
     sorted = {}
-    roster.each {|k, v| sorted[k] = v.sort}
+    roster.each {|k, v| sorted[k] = v.sort} 
+    sorted
   end
     
   
