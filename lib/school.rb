@@ -20,7 +20,7 @@ class School
   end
   
   def grade(n)
-    roster[grade]
+    roster[n]
   end 
     
   
