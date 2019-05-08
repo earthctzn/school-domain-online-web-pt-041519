@@ -17,6 +17,10 @@ class School
    # binding.pry
     roster[att] = [] if !roster.keys.include?(att)
     roster[att] << student
-    
   end
+  
+  def grade(n)
+    roster[grade]
+    
+  
 end 
